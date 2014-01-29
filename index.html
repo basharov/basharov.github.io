@@ -37,12 +37,27 @@
         font-style: italic;
     }
 
-    a {
+    h3 {
+        font-weight: normal;
+        text-align: center;
+        color: #555;
+        margin: 0;
+        padding: 0.5em 0 0.5em 0;
+        font-style: italic;
+        font-weight: bold;
+    }
+
+    a.email-link {
+        background: #326c88;
         display: block;
-        color: #326c88;
+        color: #fff;
         text-align: center;
         padding: 0 0 0 0;
         font-size: 1.2em;
+        width: 300px;
+        margin: 1em auto;
+        line-height: 3em;
+        text-decoration: none;
     }
 
     img {
@@ -54,13 +69,66 @@
         border: 1px solid rgba(0, 0, 0, 0.1)
 
     }
+
+    ul, li {
+        margin: 0;
+        padding: 0;
+        list-style: none;
+    }
+
+    ul {
+        overflow: hidden;
+        margin: 0 0 2em 0;
+    }
+
+    ul li {
+        float: left;
+    }
+
+    ul li a {
+        line-height: 2em;
+        text-decoration: none;
+        background: rgba(90, 207, 255, 0.15);
+        color: #326c88;
+        display: block;
+        float: left;
+        padding: 0 0.8em;
+        margin: 0.3em
+    }
 </style>
 <img src="face.png" alt="Sergey Basharov"/>
 
 <h1>Sergey Basharov</h1>
 
 <h2>Frontend Engineer passionate about clean code, <br/>effective workflows and best practices.</h2>
-<a href="mailto:sergey@basharov.net">Drop me a message</a>
+
+<h3>I use:</h3>
+<ul>
+    <li><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript">JavaScript</a></li>
+    <li><a href="http://nodejs.org">Nodejs</a></li>
+    <li><a href="http://jade-lang.com/">Jade</a></li>
+    <li><a href="http://learnboost.github.io/stylus/">Stylus</a></li>
+    <li><a href="http://visionmedia.github.io/nib/">nib</a></li>
+    <li><a href="http://coffeescript.org/">CoffeeScript</a></li>
+    <li><a href="http://www.html5rocks.com/">HTML5</a></li>
+    <li><a href="http://angularjs.org/">AngularJS</a></li>
+    <li><a href="http://www.mongodb.org/">MongoDB</a></li>
+    <li><a href="http://mongoosejs.com/">Mongoose</a></li>
+    <li><a href="http://www.w3.org/standards/webdesign/mobilweb">Mobile web design</a></li>
+    <li><a href="http://cukes.info/">Cucumber</a></li>
+    <li><a href="http://en.wikipedia.org/wiki/Behavior-driven_development">BDD</a></li>
+    <li><a href="http://en.wikipedia.org/wiki/Black_magic">Diluted Black Magic</a></li>
+    <li><a href="http://en.wikipedia.org/wiki/User_experience_design">UI/UX</a></li>
+    <li><a href="http://www.adobe.com/en/products/illustrator.html">Illustrator</a></li>
+    <li><a href="http://aws.amazon.com/">Amazon Services</a></li>
+    <li><a href="http://git-scm.com/">git</a></li>
+    <li><a href="http://www.jetbrains.com/webstorm/">WebStorm</a></li>
+    <li><a href="http://gruntjs.com/">Grunt</a></li>
+    <li><a href="http://gulpjs.com/">Gulp</a></li>
+</ul>
+<a class="email-link" href="mailto:sergey@basharov.net">Drop me a message</a>
+
+
 <script type="text/javascript" src="//use.typekit.net/kbi6hvw.js"></script>
 <script type="text/javascript">try {
     Typekit.load();
