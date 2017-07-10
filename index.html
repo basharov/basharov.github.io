@@ -81,11 +81,11 @@
         margin: 0 0 2em 0;
     }
 
-    ul li {
+    ul.technologies-list li {
         float: left;
     }
 
-    ul li a {
+    ul.technologies-list li a {
         line-height: 2em;
         text-decoration: none;
         background: rgba(90, 207, 255, 0.15);
@@ -94,6 +94,16 @@
         float: left;
         padding: 0 0.8em;
         margin: 0.3em
+    }
+
+    ul.projects-list li a {
+        line-height: 2em;
+        color: #326c88;
+        display: block;
+        padding: 0 0.8em;
+        margin: 0.3em;
+        text-decoration: underline;
+        text-align: center;
     }
 
     @media all and (max-width: 499px) {
@@ -147,8 +157,23 @@
         to the high industry standards.</p>
 </div>
 
+<h3>Projects I worked on:</h3>
+<ul class="projects-list">
+    <li><a target="_blank" href="http://www.population.io">Population.io</a></li>
+    <li><a target="_blank" href="http://www.brightfunnel.com">Brightfunnel</a></li>
+    <li><a target="_blank" href="https://www.clientsuccess.com">ClientSuccess</a></li>
+    <li><a target="_blank" href="http://www.acresimple.com/">AcreSimple</a></li>
+    <li><a target="_blank" href="https://instamotor.com/">Instamotor</a></li>
+    <li><a target="_blank" href="https://ct.spotware.com/">CTrader - Stocks Trading Platform</a></li>
+    <li><a target="_blank" href="http://type.aerial-bold.com/tw/">Aerial Bold</a></li>
+    <li><a target="_blank" href="http://tesera.com/projects/2014/11/28/municipal-viewer">Municipal Viewer for Tesera</a>
+    </li>
+    <li><a target="_blank" href="http://tesera.com/projects/2014/11/17/mrat">Municipal Risk Assessment Tool for
+        Tesera</a></li>
+</ul>
+
 <h3>I use:</h3>
-<ul>
+<ul class="technologies-list">
     <li><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript">JavaScript</a></li>
     <li><a href="https://www.typescriptlang.org/">TypeScript</a></li>
     <li><a href="https://www.dartlang.org/">Dart</a></li>
@@ -158,6 +183,7 @@
     <li><a href="http://facebook.github.io/react//">ReactJS</a></li>
     <li><a href="https://github.com/reactjs/redux">Redux</a></li>
     <li><a href="https://github.com/Reactive-Extensions/RxJS">RxJS</a></li>
+    <li><a href="http://elm-lang.org/">Elm</a></li>
 
     <li><a href="https://en.wikipedia.org/wiki/Geographic_information_system">Development for GIS systems</a></li>
     <li><a href="https://github.com/avajs">AVA</a></li>
@@ -177,7 +203,8 @@
     <li><a href="https://webpack.github.io/">Webpack</a></li>
     <li><a href="http://gulpjs.com/">Gulp</a></li>
 </ul>
-<a class="email-link" href="mailto:sergei@basharov.net">Drop me a message</a>
+
+<a class="email-link" href="mailto:sergei@basharov.net?subject=Hey Sergei, I visited your site">Drop me a message</a>
 
 
 <script type="text/javascript" src="//use.typekit.net/kbi6hvw.js"></script>
@@ -189,10 +216,10 @@
 (function (i, s, o, g, r, a, m) {
     i['GoogleAnalyticsObject'] = r;
     i[r] = i[r] || function () {
-                (i[r].q = i[r].q || []).push(arguments)
-            }, i[r].l = 1 * new Date();
+            (i[r].q = i[r].q || []).push(arguments)
+        }, i[r].l = 1 * new Date();
     a = s.createElement(o),
-            m = s.getElementsByTagName(o)[0];
+        m = s.getElementsByTagName(o)[0];
     a.async = 1;
     a.src = g;
     m.parentNode.insertBefore(a, m)
