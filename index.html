@@ -45,17 +45,6 @@
             font-weight: bold;
         }
 
-        a.upwork-link {
-            font-style: italic;
-            color: #326c88;
-            display: block;
-            text-align: center;
-            font-size: 1.1em;
-            margin: 0.5em auto;
-            line-height: 2em;
-            text-decoration: underline;
-        }
-
         a.email-link {
             width: auto;
             background: #326c88;
@@ -149,6 +138,25 @@
             }
         }
 
+        .social-links {
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+        }
+
+        a.upwork-link,
+        a.linkedin-link {
+            font-style: italic;
+            color: #326c88;
+            display: block;
+            text-align: center;
+            font-size: 1.1em;
+            margin: 0.5em 10px;
+            line-height: 2em;
+            text-decoration: underline;
+        }
+
     </style>
 </head>
 
@@ -158,9 +166,10 @@
 
 <h1>Sergei Basharov</h1>
 
-<a class="upwork-link" href="https://www.upwork.com/freelancers/~01afb25272d7a209c6">My Upwork profile</a>
-<a class="upwork-link" href="https://www.linkedin.com/in/basharov">My LinkedIn profile</a>
-
+<div class="social-links">
+    <a class="upwork-link" href="https://www.upwork.com/freelancers/~01afb25272d7a209c6">Upwork profile</a>
+    <a class="linkedin-link" href="https://www.linkedin.com/in/basharov">LinkedIn profile</a>
+</div>
 
 <div class="intro">
     <p>As a practicing consultant and developer, I put substantial thought as into organizing the whole project, so into
