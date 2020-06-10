@@ -4,6 +4,7 @@
 # IntelliJ project files
 .idea
 *.iml
+*.idlk
 out
 gen
 node_modules
