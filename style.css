@@ -81,6 +81,15 @@ ul.technologies-list li {
     float: left;
 }
 
+ul.bulleted-technologies-list {
+    margin-left: 10px;
+}
+
+ul.bulleted-technologies-list li {
+    list-style-position: inside;
+    list-style-type: disc;
+}
+
 ul.technologies-list li a {
     line-height: 2em;
     text-decoration: none;
@@ -138,9 +147,11 @@ ul.projects-list li a {
     align-items: center;
 }
 
+a.project-link,
 a.cv-link,
 a.li-link,
 a.github-link,
+a.home-link,
 a.so-link {
     font-style: italic;
     color: #326c88;
@@ -152,3 +163,9 @@ a.so-link {
     text-decoration: underline;
 }
 
+a.home-link {
+    font-style: normal;
+    text-align: center;
+    display: block;
+    margin-bottom: 20px;
+}
