@@ -1,0 +1,154 @@
+html {
+    background: #222;
+}
+
+body {
+    font-family: "ff-tisa-web-pro", Georgia, serif;
+    background: #fff;
+    margin: 2em auto;
+    max-width: 600px;
+    padding: 5em;
+    border: 1px solid #111;
+
+}
+
+h1 {
+    font-weight: normal;
+    text-align: center;
+    color: #555;
+    margin: 0;
+    padding: 0;
+}
+
+h2 {
+    font-weight: normal;
+    text-align: center;
+    color: #555;
+    margin: 0;
+    padding: 0.5em 0 0.5em 0;
+    font-style: italic;
+}
+
+h3 {
+    text-align: center;
+    color: #555;
+    margin: 0;
+    padding: 0.5em 0 0.5em 0;
+    font-style: italic;
+    font-weight: bold;
+}
+
+a.email-link {
+    width: auto;
+    background: #326c88;
+    display: block;
+    color: #fff;
+    text-align: center;
+    padding: 0 1em;
+    font-size: 1.2em;
+    margin: 3em auto 0;
+    line-height: 3em;
+    text-decoration: none;
+    transition: background 0.3s;
+}
+
+a.email-link:hover {
+    background: #357693;
+}
+
+img {
+    display: block;
+    margin: 0 auto 2em;
+    width: 125px;
+    height: 125px;
+    border-radius: 63px;
+    border: 1px solid rgba(0, 0, 0, 0.3)
+
+}
+
+ul, li {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+ul {
+    overflow: hidden;
+    margin: 0 0 2em 0;
+}
+
+ul.technologies-list li {
+    float: left;
+}
+
+ul.technologies-list li a {
+    line-height: 2em;
+    text-decoration: none;
+    background: rgba(90, 207, 255, 0.15);
+    color: #326c88;
+    display: block;
+    float: left;
+    padding: 0 0.8em;
+    margin: 0.3em
+}
+
+ul.projects-list li a {
+    line-height: 2em;
+    color: #326c88;
+    display: block;
+    padding: 0 0.8em;
+    margin: 0.3em;
+    text-decoration: underline;
+    text-align: center;
+}
+
+@media all and (max-width: 499px) {
+    body {
+        padding: 3em 2em;
+        margin: 0;
+    }
+
+    h1 {
+        font-size: 1.2em;
+    }
+
+    h2 {
+        font-size: 0.9em;
+    }
+
+    h3 {
+        text-align: center;
+        color: #555;
+        margin: 0;
+        padding: 0.5em 0 0.5em 0;
+        font-style: italic;
+        font-weight: bold;
+    }
+
+    ul li a {
+        line-height: 1.5em;
+        font-size: 0.9em;
+    }
+}
+
+.my-links {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+a.cv-link,
+a.li-link,
+a.github-link,
+a.so-link {
+    font-style: italic;
+    color: #326c88;
+    display: block;
+    text-align: center;
+    font-size: 1.1em;
+    margin: 0.5em 10px;
+    line-height: 2em;
+    text-decoration: underline;
+}
+
